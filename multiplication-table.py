@@ -29,3 +29,11 @@ for i in range(1,((height)+1)):
     print ("")
     for i in range(1,((width)+1)):
         print ('x ', end="")
+i = 1
+while i < 11:
+    n = 1
+    while n <= 10:
+        print("%4d" % (i * n), end=' ')
+        n += 1
+    print()
+    i += 1
