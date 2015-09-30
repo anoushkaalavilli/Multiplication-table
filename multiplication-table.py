@@ -35,5 +35,4 @@ b = 1
 for x in range(1, ((height)+1)):
     print ("")
     for b in range (1, ((width)+1)):
-        print(((x)*(b)), end=" ")
-print("{0:>3}".format((x*b), end=" "))
+        print("{0:>3}".format(x*b), end=" ")
